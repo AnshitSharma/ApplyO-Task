@@ -1,5 +1,5 @@
 // pages/api/test.js - Simple API test endpoint
-import { getDatabase } from '../lib/db.js';
+import { getDatabase } from '../../lib/db.js';
 
 export default function handler(req, res) {
   if (req.method !== 'GET') {
